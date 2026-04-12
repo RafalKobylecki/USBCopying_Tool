@@ -1,0 +1,103 @@
+{
+  "window": {
+    "title": "USB Mass Copy Tool"
+  },
+  "menu": {
+    "file": {
+      "title": "File",
+      "exit": "Exit"
+    },
+    "settings": {
+      "title": "Settings",
+      "properties": "Properties"
+    },
+    "help": {
+      "title": "Help",
+      "instructions": "How it works",
+      "about_author": "About author"
+    }
+  },
+  "labels": {
+    "source_frame": "📁 Source folder",
+    "usb_frame": "🔌 USB copy progress",
+    "options_frame": "⚙️ Options",
+    "folder_name": "Folder name:",
+    "status_frame": "📊 Overall status",
+    "selection_frame": "📄 File selection for drive root mode"
+  },
+  "buttons": {
+    "browse": "📂 Browse",
+    "refresh_usb": "🔄 Refresh USB",
+    "start_copy": "🚀 Start copy",
+    "stop_copy": "⛔ Stop copy",
+    "save": "Save",
+    "cancel": "Cancel",
+    "select_files": "Select files",
+    "select_all": "Select all",
+    "clear_selection": "Clear selection",
+    "apply": "Apply",
+    "exit_app": "Exit"
+  },
+  "radio": {
+    "folder_mode": "📁 Copy to folder",
+    "flatten_mode": "📄 Copy only files to drive root"
+  },
+  "status": {
+    "ready": "Ready",
+    "waiting": "⏳ Waiting...",
+    "starting": "⏳ Starting...",
+    "preparing": "📂 Preparing...",
+    "completed": "✅ Completed!",
+    "all_completed": "✅ All copy operations completed",
+    "stopped": "⏹️ Stopped",
+    "copying_in_progress": "Copying in progress...",
+    "copying_generic": "📄 Copying files...",
+    "copying_file": "COPYING: {filename}",
+    "error": "💥 ERROR: {error_msg}",
+    "usb_label": "🔌 {usb_path}",
+    "file_counter": "📄 {copied}/{total}",
+    "file_counter_done": "📄 {copied}/{total} ✅",
+    "overall_files": "📄 {copied}/{total} files ({percent}%)"
+  },
+  "dialogs": {
+    "close": {
+      "title": "Close",
+      "message": "Exit from application?"
+    },
+    "error": {
+      "no_files_selected": "No files available for copying or no files selected.",
+      "title": "Error",
+      "select_source": "Please select a valid source folder first.",
+      "connect_usb": "No USB drive detected. Connect a drive and refresh the device list."
+    }
+  },
+  "list": {
+    "file_item": "📄 {item} ({size} KB)",
+    "dir_item": "📁 {item}/",
+    "summary": "📊 {file_count} files, {total_size} KB"
+  },
+  "properties": {
+    "title": "Properties",
+    "language_label": "Language:"
+  },
+  "languages": {
+    "english": "English",
+    "polish": "Polish",
+    "ukrainian": "Ukrainian"
+  },
+  "help": {
+    "title": "Application help",
+    "content": "1. Select the source folder that contains the files to be copied.\n2. Connect one or more USB drives and use the refresh button to detect available devices.\n3. Choose the copy mode:\n   - \"Copy to folder\" – the application creates a target folder on each USB drive using the name of the selected source folder and preserves the subfolder structure,\n   - \"Copy only files to drive root\" – files are copied directly to the root of the USB drive.\n4. In drive root mode, you can use the \"Select files\" button to choose only specific files for copying. If you do not select any files manually, the application copies all available files.\n5. Click \"Start copy\" to begin copying in parallel to all detected USB drives.\n6. Copy progress is shown separately for each USB drive and also globally in the overall status panel.\n7. You can stop the operation at any time by clicking \"Stop copy\".\n\nNotes:\n- The target folder name is set automatically from the selected source folder name when folder mode is enabled.\n- In drive root mode, no additional destination folder is created.\n- The application requires a valid source folder, at least one detected USB drive, and available files for copying."
+  },
+  "about": {
+    "title": "About author",
+    "content": "Project author:\nRafał Kobylecki\nEmbedded systems and test engineer.\nContact:\nEmail: metallmaniac82@gmail.com\n\nProject license:\nThis project is distributed under GNU GPL v3.\nThe license allows private, business, and commercial use, as well as modification and further redistribution under the same license terms.\n\nRequirements for redistribution:\n- author attribution must be preserved,\n- the \"About author\" section in the application should remain available,\n- modified versions should be clearly marked,\n- when distributing binary builds, recipients are entitled to receive the corresponding source code in accordance with GNU GPL v3.\n"
+  },
+  "selection": {
+    "title": "Select files",
+    "description": "Choose which files from the source folder should be copied when using the mode that copies files directly to the drive root.",
+    "hidden_in_folder_mode": "File selection is used only in the mode that copies files to the drive root.",
+    "no_selection_means_all": "No files selected manually. All available files will be copied: {total}.",
+    "selected_count": "Selected files: {selected} / {total}"
+  }
+}

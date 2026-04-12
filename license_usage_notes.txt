@@ -1,0 +1,7 @@
+Suggested usage
+
+1. Put NOTICE.txt in the root directory of the project.
+2. Put LICENSE.txt in the root directory of the project.
+3. Add the Python header below at the top of each .py file, for example: main.py, gui.py, translator.py, helpers.py.
+4. Keep the "About author" section in translation files aligned with the same GPL v3 notice.
+5. If you distribute EXE or other binary packages, include LICENSE.txt and NOTICE.txt in the installer, ZIP package, or application directory.

@@ -1,0 +1,21 @@
+USB Mass Copy Tool - NOTICE
+
+Copyright (C) 2026 Rafał Kobylecki
+Author: Rafał Kobylecki
+email: metallmaniac82@gmail.com
+Project type: Desktop application for parallel USB mass copy operations
+License: GNU General Public License v3.0 or later (GPL-3.0-or-later)
+
+Distribution notice:
+1. Commercial use is allowed under GNU GPL v3.
+2. Private, internal, educational, and business use is allowed.
+3. Redistribution of modified or unmodified versions must remain under GNU GPL v3 or later.
+4. Author attribution should be preserved in project notices and in the "About author" section where present.
+5. Modified versions should be clearly marked as changed.
+6. When distributing binary builds, the distributor must provide access to the corresponding source code in accordance with GNU GPL v3.
+
+Recommended attribution text:
+Project author: metallmaniac82
+Embedded systems and test engineer.
+This project is distributed under GNU GPL v3.
+If you received only a binary build, you may request the corresponding source code from the distributor under GPL v3 terms.

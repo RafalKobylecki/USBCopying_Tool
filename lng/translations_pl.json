@@ -1,0 +1,103 @@
+{
+  "window": {
+    "title": "USB Mass Copy Tool"
+  },
+  "menu": {
+    "file": {
+      "title": "Plik",
+      "exit": "Zakończ"
+    },
+    "settings": {
+      "title": "Ustawienia",
+      "properties": "Właściwości"
+    },
+    "help": {
+      "title": "Pomoc",
+      "instructions": "Opis działania",
+      "about_author": "O autorze"
+    }
+  },
+  "labels": {
+    "source_frame": "📁 Folder źródłowy",
+    "usb_frame": "🔌 Postęp kopiowania USB",
+    "options_frame": "⚙️ Opcje",
+    "folder_name": "Nazwa folderu:",
+    "status_frame": "📊 Status ogólny",
+    "selection_frame": "📄 Wybór plików dla trybu kopiowania do katalogu głównego"
+  },
+  "buttons": {
+    "browse": "📂 Przeglądaj",
+    "refresh_usb": "🔄 Odśwież USB",
+    "start_copy": "🚀 Rozpocznij kopiowanie",
+    "stop_copy": "⛔ Zatrzymaj kopiowanie",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "select_files": "Wybierz pliki",
+    "select_all": "Zaznacz wszystko",
+    "clear_selection": "Wyczyść zaznaczenie",
+    "apply": "Zastosuj",
+    "exit_app": "Zamknij"
+  },
+  "radio": {
+    "folder_mode": "📁 Kopiuj do folderu",
+    "flatten_mode": "📄 Kopiuj pliki do katalogu głównego nośnika"
+  },
+  "status": {
+    "ready": "Gotowe",
+    "waiting": "⏳ Oczekiwanie...",
+    "starting": "⏳ Start...",
+    "preparing": "📂 Przygotowanie...",
+    "completed": "✅ Zakończono!",
+    "all_completed": "✅ Wszystkie operacje kopiowania zostały zakończone",
+    "stopped": "⏹️ Zatrzymano",
+    "copying_in_progress": "Trwa kopiowanie...",
+    "copying_generic": "📄 Trwa kopiowanie plików...",
+    "copying_file": "KOPIOWANIE: {filename}",
+    "error": "💥 BŁĄD: {error_msg}",
+    "usb_label": "🔌 {usb_path}",
+    "file_counter": "📄 {copied}/{total}",
+    "file_counter_done": "📄 {copied}/{total} ✅",
+    "overall_files": "📄 {copied}/{total} plików ({percent}%)"
+  },
+  "dialogs": {
+    "close": {
+      "title": "Zamknij",
+      "message": "Zamknąć aplikację?"
+    },
+    "error": {
+      "no_files_selected": "Brak plików do skopiowania lub nie wybrano żadnych plików.",
+      "title": "Błąd",
+      "select_source": "Najpierw wybierz poprawny folder źródłowy.",
+      "connect_usb": "Nie wykryto żadnej pamięci USB. Podłącz nośnik i odśwież listę urządzeń."
+    }
+  },
+  "list": {
+    "file_item": "📄 {item} ({size} KB)",
+    "dir_item": "📁 {item}/",
+    "summary": "📊 {file_count} plików, {total_size} KB"
+  },
+  "properties": {
+    "title": "Właściwości",
+    "language_label": "Język:"
+  },
+  "languages": {
+    "english": "Angielski",
+    "polish": "Polski",
+    "ukrainian": "Ukraiński"
+  },
+  "help": {
+    "title": "Pomoc aplikacji",
+    "content": "1. Wybierz folder źródłowy zawierający pliki przeznaczone do skopiowania.\n2. Podłącz jedną lub więcej pamięci USB i użyj przycisku odświeżania, aby wykryć dostępne nośniki.\n3. Wybierz tryb kopiowania:\n   - \"Kopiuj do folderu\" – aplikacja utworzy na każdym nośniku folder docelowy o nazwie pobranej automatycznie z wybranego folderu źródłowego i zachowa strukturę podfolderów,\n   - \"Kopiuj pliki do katalogu głównego nośnika\" – pliki zostaną zapisane bezpośrednio w katalogu głównym pamięci USB.\n4. W trybie kopiowania do katalogu głównego możesz użyć przycisku \"Wybierz pliki\", aby wskazać tylko wybrane pliki do skopiowania. Jeżeli nie zaznaczysz żadnych plików ręcznie, aplikacja skopiuje wszystkie dostępne pliki.\n5. Kliknij \"Rozpocznij kopiowanie\", aby uruchomić kopiowanie równolegle na wszystkie wykryte nośniki USB.\n6. Postęp kopiowania jest pokazywany osobno dla każdego nośnika USB oraz zbiorczo w panelu statusu ogólnego.\n7. W dowolnym momencie możesz użyć przycisku \"Zatrzymaj kopiowanie\", aby przerwać operację.\n\nUwagi:\n- Nazwa folderu docelowego jest automatycznie ustawiana na podstawie nazwy wybranego folderu źródłowego, gdy aktywny jest tryb kopiowania do folderu.\n- W trybie kopiowania do katalogu głównego nie jest tworzony dodatkowy folder docelowy.\n- Aplikacja wymaga wskazania poprawnego folderu źródłowego, wykrycia co najmniej jednego nośnika USB oraz dostępności plików do skopiowania."
+  },
+  "about": {
+    "title": "O autorze",
+    "content": "Autor projektu:\nRafał Kobylecki\nInżynier testu i systemów embedded.\nKontakt:\nEmail: metallmaniac82@gmail.com\n\nLicencja projektu:\nProjekt jest udostępniany na warunkach GNU GPL v3.\nLicencja dopuszcza użycie prywatne, firmowe i komercyjne, a także modyfikację oraz dalszą dystrybucję programu na tych samych warunkach licencyjnych.\n\nWymagania przy dalszym udostępnianiu:\n- należy zachować informację o autorze projektu,\n- sekcja \"O autorze\" w aplikacji powinna pozostać dostępna,\n- wersje zmodyfikowane powinny być wyraźnie oznaczone,\n- w przypadku dystrybucji wersji binarnej odbiorca ma prawo do otrzymania odpowiadającego kodu źródłowego zgodnie z GNU GPL v3.\n\nWsparcie AI:\nPerplexity, powered by GPT-5.4."
+  },
+  "selection": {
+    "title": "Wybór plików",
+    "description": "Wybierz pliki z katalogu źródłowego, które mają zostać skopiowane przy użyciu trybu kopiowania bezpośrednio do katalogu głównego nośnika.",
+    "hidden_in_folder_mode": "Wybór plików jest używany tylko w trybie kopiowania plików do katalogu głównego nośnika.",
+    "no_selection_means_all": "Nie wybrano ręcznie plików. Zostaną skopiowane wszystkie dostępne pliki: {total}.",
+    "selected_count": "Wybrane pliki: {selected} / {total}"
+  }
+}
